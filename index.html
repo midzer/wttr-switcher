@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>wttr-switcher</title>
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <style>
+            #weather-input {
+                width:76px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container mt-3">
+            <div class="d-inline-block">
+                <img id="weather-img" class="img-fluid rounded" src="https://wttr.in/London_0pq_transparency=200_lang=en.png" alt="Current weather in London">
+                <form id="weather-form">
+                    <div class="input-group mt-1">
+                        <input id="weather-input" class="form-control" type="text" placeholder="Weather in..." aria-label="Weather in...">
+                        <div class="input-group-append">
+                            <button id="weather-btn" class="btn btn-primary" type="button">OK</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script defer src="assets/js/main.js"></script>
+    </body>
+</html>
