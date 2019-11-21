@@ -1,13 +1,13 @@
 # wttr-switcher
-Tiny widget for [wttr.in](https://wttr.in) service to change location dynamically
+Простой виджет для сериса погоды [wttr.in](https://wttr.in) с возможностью ввода города
 
-## Customization
-Simply modify `weatherOptions` and `weatherImgAlt` in `main.js` according to [wttr help page](https://wttr.in/:help) to fit your needs
+## Настройка
+Вы можете изменить `weatherOptions` и `weatherImgAlt` в файле `main.js` в соответствии с [wttr help page](https://wttr.in/:help) чтобы полуить необходимый вам вид виджета.
 
-## (Optional) dependencies
-For demo purposes and visual beautification I've only included
+## (Дополнительно) зависимости
+В целях демонстрации и приятности для глаз  были добавлены:
 
 * Bootstrap 4 for CSS (container, responsive image, input-group and few helper classes)
 
-## Browser support
-All major browsers, should work all the way down to at least IE10 (untested)
+## Поддержка браузеров
+Во всех основных браузерах вплоть до IE10 (не тестировался) должно работать
